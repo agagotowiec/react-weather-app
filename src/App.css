@@ -1,9 +1,24 @@
 .App {
-	max-width: 600px;
+	font-family: "Montserrat", sans-serif;
+	max-width: 700px;
 	margin: 30px auto;
 }
 
 .App footer {
-	font-size: 11px;
-	margin: 10px 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 10px 5px;
+	text-align: left;
+	color: green;
+	font-weight: bolder;
+}
+
+.App footer a {
+	color: black;
+	text-decoration: none;
+}
+
+.App footer a:hover {
+	color: navy;
+	text-decoration: none;
 }
