@@ -2,8 +2,13 @@
 	padding: 20px;
 }
 
-.Weather .overview {
-	margin-bottom: 20px;
+.Weather .date {
+	text-align: left;
+	margin-top: 0px;
+	color: #f3eac0;
+	font-size: 14px;
+	font-weight: bolder;
+	text-transform: uppercase;
 }
 
 .Weather .weather-temperature img {
@@ -13,9 +18,10 @@
 }
 
 .Weather .weather-temperature strong {
-	color: #a0e7e5;
-	text-shadow: 2px 2px white;
-	font-size: 64px;
+	color: #0ef4ac;
+	text-shadow: 2px 2px black;
+	margin: 20px 10px;
+	font-size: 70px;
 	line-height: 1;
 	font-weight: bolder;
 }
@@ -27,7 +33,7 @@
 }
 
 .Weather .weather-temperature .active {
-	color: rgb(33, 33, 33);
+	color: #a8e10c;
 	cursor: default;
 }
 
@@ -39,9 +45,12 @@
 	margin-top: 10px;
 }
 
+h3,
 .Weather .weather-forecast h3 {
-	color: black;
-	font-size: 40px;
+	color: #f1df5f;
+	text-align: center;
+	margin: 40px 0;
+	font-size: 20px;
 	font-weight: 400;
 	text-align: center;
 	height: 15px;
@@ -65,3 +74,4 @@
 	line-height: 15px;
 	white-space: nowrap;
 }
+

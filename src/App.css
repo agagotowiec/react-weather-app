@@ -3,38 +3,7 @@
 	margin: 30px auto;
 }
 
-body {
-	font-family: arial, sans-serif;
-	background-color: #fbe7c6;
-}
-
-h1 {
-	color: #a0e7e5;
-	text-shadow: 2px 2px white;
-	font-size: 60px;
-	font-weight: bold;
-	line-height: 28px;
-	margin-bottom: 0;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-}
-
-li {
-	list-style: none;
-	margin-top: 15px;
-	margin-left: 5px;
-	padding: 0;
-
-	color: #f83052;
-	text-shadow: 1px 1px rgb(34, 32, 34);
-	font-size: 20px;
-	font-weight: bolder;
-	line-height: 19px;
-}
-
-li:first-letter {
-	text-transform: capitalize;
+.App footer {
+	font-size: 11px;
+	margin: 10px 0;
 }

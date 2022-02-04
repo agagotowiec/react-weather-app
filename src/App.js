@@ -1,24 +1,18 @@
-import "./App.css";
+import React from "react";
 import Weather from "./Weather";
+import "./App.css";
 
-function App() {
+export default function App() {
 	return (
 		<div className="App">
 			<div className="container">
-				<h1>Weather App</h1>
+				<Weather defaultCity="New York" />
 
-				<Weather />
 				<footer>
-					This page is {""}
-					<a
-						href="https://github.com/agagotowiec/react-weather-app"
-						target="_blank"
-						rel="noreferrer"
-					>
-						open-sourced.{" "}
-					</a>
-					It was coded by {""}
-					<a href="https://www.linkedin.com/in/aga-got/" target="_blank" rel="noreferrer">
+					This project is{""}
+					<a href="https://github.com/agagotowiec"> open sourced </a>
+					and was coded by{" "}
+					<a href="https://www.linkedin.com/in/aga-got/" target="_blank" rel="noopener noreferrer">
 						Aga Gotowiec.
 					</a>
 				</footer>
@@ -26,5 +20,3 @@ function App() {
 		</div>
 	);
 }
-
-export default App;

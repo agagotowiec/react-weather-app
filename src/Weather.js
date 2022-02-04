@@ -15,9 +15,10 @@ export default function Weather() {
 
 	return (
 		<div className="Weather">
+			<h3 className="date">{weatherData.date}</h3>
 			<form className="mb-3">
 				<div className="row">
-					<div className="col-6">
+					<div className="col-8">
 						<input
 							type="search"
 							placeholder="Type a city.."
@@ -25,19 +26,25 @@ export default function Weather() {
 							autoComplete="off"
 						/>
 					</div>
-					<div className="col-6">
-						<input type="submit" value="Search" className="btn btn-primary w-200" />
+					<div className="col-4">
+						<input type="submit" value="Search" className="btn btn-warning w-200" />
 					</div>
 				</div>
 			</form>
 			<div className="overview">
-				<h1>{weatherData.city}</h1>
+				<h1 className="city">{weatherData.city}</h1>
 				<ul>
-					<li>{weatherData.date}</li>
-					<li>{weatherData.description}</li>
+					<li className="weather-description"></li>
 				</ul>
 			</div>
 			<div className="row">
+				<div className="col-6">
+					<ul>
+						<li>{weatherData.description}</li>
+						<li>Humidity: {weatherData.humidity}%</li>
+						<li>Wind: {weatherData.wind} km/h</li>
+					</ul>
+				</div>
 				<div className="col-6">
 					<div className="clearfix weather-temperature">
 						<img src={weatherData.imgUrl} alt={weatherData.description} className="float-left" />
@@ -48,12 +55,6 @@ export default function Weather() {
 							</span>
 						</div>
 					</div>
-				</div>
-				<div className="col-6">
-					<ul>
-						<li>Humidity: {weatherData.humidity}%</li>
-						<li>Wind: {weatherData.wind} km/h</li>
-					</ul>
 				</div>
 			</div>
 		</div>
