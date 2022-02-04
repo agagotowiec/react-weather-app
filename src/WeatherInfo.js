@@ -20,8 +20,8 @@ export default function WeatherInfo(props) {
 					<div className="clearfix">
 						<div className="float-left mt-2 mb-5">
 							<ul>
-								<li className="WeatherDescription">💧 {props.data.humidity}%</li>
-								<li className="WeatherDescription">🍃 {props.data.wind} km/h</li>
+								<li className="WeatherDescription">Humidity 💧{props.data.humidity}%</li>
+								<li className="WeatherDescription">Wind 💨{props.data.wind} km/h</li>
 							</ul>
 						</div>
 					</div>

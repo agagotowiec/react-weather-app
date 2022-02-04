@@ -8,11 +8,11 @@
 
 .WeatherForecast-temperature-min,
 .WeatherForecast-temperature-max {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: bolder;
 }
 .WeatherForecast-temperature-min {
 	opacity: 0.8;
 	margin-left: 5px;
-	color: #341948;
+	color: darkblue;
 }
