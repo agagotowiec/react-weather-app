@@ -1,37 +1,51 @@
 .Weather {
-	font-family: arial, sans-serif;
-	border: 1px solid #dadde1;
-	padding: 16px;
+	font-family: "Baloo Bhaijaan 2", cursive;
+	padding: 20px;
 	border-radius: 4px;
-	color: rgb(135, 135, 135);
+	background-color: #97d49b;
 }
 
 .Weather h1 {
-	font-size: 24px;
-	font-weight: 100;
-	margin: 20px 0 0 0;
+	color: #170b3b;
+	text-shadow: 1px 1px white;
+	font-size: 50px;
+	font-weight: bolder;
+	margin: 10px 5px;
 	line-height: 29px;
 }
-
+.Weather h3 {
+	color: black;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 20px 50px;
+	text-align: right;
+}
+.Weather .WeatherDescription {
+	color: #170b3b;
+	font-size: 20px;
+}
 .Weather ul {
-	margin: 0;
+	margin: 20px 10px;
 	padding: 0;
 }
 
 .Weather li {
-	font-size: 16px;
-	font-weight: 100;
-	line-height: 19px;
+	color: #ecf87f;
+	text-shadow: 1px 1px black;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 25px;
 	list-style: none;
 }
 
 .Weather .temperature {
-	font-weight: bold;
-	color: rgb(33, 33, 33);
-	font-size: 64px;
+	font-weight: bolder;
+	color: #ecf87f;
+	font-size: 80px;
+	text-shadow: 2px 2px #170b3b;
 	line-height: 64px;
-	margin-left: 5px;
-	font-weight: 400;
+	margin-left: 50px;
+	font-weight: bolder;
 	margin-left: 10px;
 }
 
@@ -40,9 +54,9 @@
 }
 
 .Weather .unit {
-	color: rgb(33, 33, 33);
-	font-size: 16px;
-	font-weight: 400;
+	color: #170b3b;
+	font-size: 20px;
+	font-weight: bolder;
 	position: relative;
 	line-height: 1;
 	top: -34px;
